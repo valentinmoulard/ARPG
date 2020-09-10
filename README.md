@@ -1,5 +1,25 @@
 # ARPG
- Action RPG project
+ Action RPG project. The inspiration for this project are RPGs in general. The idea is to implement basic feature for a classic RPG game such as a combat system, inventory and shop system, equipement system, skill trees for the different playable classes.
+
+# Current Features
+
+<p align="center">
+  <img src="UE4%20Logs/1.PNG">
+</p>
+
+The player can collect ressources, interract with a shop keeper to buy or sell items by pressing the E key.
+
+<p align="center">
+  <img src="UE4%20Logs/1.PNG">
+</p>
+
+This is the interface that allows the player to buy or sell items.
+
+<p align="center">
+  <img src="UE4%20Logs/1.PNG">
+</p>
+
+The player can show the inventory by pressing the Tab key
 
 # Light Environments
 
