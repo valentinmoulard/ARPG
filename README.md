@@ -37,6 +37,7 @@ The player can make combos with auto attacks (This feature was mostly already im
 </p>
 
 The player also has abilities he can use (For now most of the abilities have no effects, just visual feedback : animations and UI feedback).
+The player can target the nearest enemy by pressing the A key. When an enemy is targeted, the player is allowed to use offensive abilities (damaging abilities or debuffs).
 There are projectiles (fireball damaging the targeted enemy), AOEs (magic circle around the player (not healing the player yet)), Buffs (the buff status appear in the top right corner of the screen) and Debuffs (When the player targets an enemy and cast a debuff, the debuffs status appears under the enemy's health bar).
 <p align="center">
   <img src="UE4%20Logs/AbilitySystem1.gif">
@@ -45,6 +46,7 @@ There are projectiles (fireball damaging the targeted enemy), AOEs (magic circle
 
 # AI
 
+A simple patroling AI following a determined route using Unreal engine's behavior tree and DetouredCroudAIController
 <p align="center">
   <img src="UE4%20Logs/AI_Patrol.gif">
 </p>
