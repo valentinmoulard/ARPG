@@ -23,9 +23,7 @@ This is the interface that allows the player to buy or sell items.
 
 # AI
 
-<p align="center">
-  <img src="UE4%20Logs/AI%20patrol.mp4">
-</p>
+UE4%20Logs/AI%20patrol.mp4
 
 # Light Environments
 
