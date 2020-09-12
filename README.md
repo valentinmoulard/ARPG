@@ -3,26 +3,31 @@
 
 # Current Features
 
-<p align="center">
-  <img src="UE4%20Logs/1.PNG">
-</p>
 
 The player can collect ressources, interract with a shop keeper to buy or sell items by pressing the E key.
-
 <p align="center">
   <img src="UE4%20Logs/1.PNG">
 </p>
 
-This is the interface that allows the player to buy or sell items.
-
-<p align="center">
-  <img src="UE4%20Logs/1.PNG">
-</p>
 
 The player can show the inventory by pressing the Tab key
+<p align="center">
+  <img src="UE4%20Logs/2.PNG">
+</p>
+
+
+This is the interface that allows the player to buy or sell items.
+<p align="center">
+  <img src="UE4%20Logs/3.PNG">
+</p>
+
+# AI
+
+UE4%20Logs/AI%20patrol.mp4
 
 # Light Environments
 
+Used light presets to try different result.
 <p align="center">
   <img src="UE4%20Logs/Light1.PNG">
   <img src="UE4%20Logs/Light2.PNG">
