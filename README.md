@@ -53,6 +53,11 @@ When targeting an enemy, the player's movements will be translated into rotation
 
 Targeting an NPC will only lock the player to the target and will display a status bar of the target. The player will move around the target and will always face it.
 
+The player also has the ability to dash taking the character to few meters forward.
+<p align="center">
+  <img src="UE4%20Logs/PlayerDash.gif">
+</p>
+
 # AI
 
 A simple patroling AI following a determined route using Unreal engine's behavior tree and DetouredCroudAIController
