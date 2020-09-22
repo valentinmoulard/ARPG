@@ -14,13 +14,13 @@ Most of the assets come from the Unreal Market place (environment, characters an
 # Current Features
 
 
-The player can collect ressources, interract with a shop keeper to buy or sell items by pressing the E key. The parent class of all character implements an interface called InterractInterface. This one allows to trigger the interract function proper to each objects. Interract with a rock will collect it and put it in the inventory, interract with the shop keeper will display the shop UI and interract with a fire altar will turn on or off the fire.
+The player can collect ressources (stones or herbs currently), interract with a shop keeper to buy or sell items by pressing the E key to interract with them. The parent class of all character implements an interface called InterractInterface. This one allows to trigger the interract function proper to each objects. Interract with a rock will collect it and put it in the inventory, interract with the shop keeper will display the shop UI and interract with a fire altar will turn on or off the fire.
 <p align="center">
   <img src="UE4%20Logs/1.PNG">
 </p>
 
 
-The player can show the inventory by pressing the Tab key. For now, this is just a UI to visualize the player's inventory and can't do anything. The player can only click on usable items such as herbs to heal. More items to come later.
+The player can toggle the inventory by pressing the Tab key. For now, this is just a UI to visualize the player's inventory and can't do anything. The player can only click on usable items such as herbs to heal. More items to come later.
 <p align="center">
   <img src="UE4%20Logs/2.PNG">
 </p>
