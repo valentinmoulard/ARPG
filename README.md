@@ -2,9 +2,9 @@
  Action RPG project. The inspiration for this project are RPGs in general. The idea is to implement basic feature for a classic RPG game such as a combat system, inventory and shop system, equipement system, skill trees for the different playable classes.
 I followed many tutorials to work on this project. Here are the links to their channel.
 
-https://www.youtube.com/channel/UCsS5i15vvUbwfr_1JdRKCAA - Ryan Laley (Unreal engine tutorials)
-https://www.youtube.com/channel/UCz-eYJAUgSE-mqzKtit7m9g - DevSquad (Making a RPG in Unreal)
-https://www.youtube.com/channel/UCeaUbzfg8FM8fmx7q_1Xq8w - Astrum Sensei (Creating an Action Role Playing Game in Unreal Engine 4)
+- Ryan Laley (Unreal engine tutorials) https://www.youtube.com/channel/UCsS5i15vvUbwfr_1JdRKCAA
+- DevSquad (Making a RPG in Unreal) https://www.youtube.com/channel/UCz-eYJAUgSE-mqzKtit7m9g
+- Astrum Sensei (Creating an Action Role Playing Game in Unreal Engine 4) https://www.youtube.com/channel/UCeaUbzfg8FM8fmx7q_1Xq8w
 
 This current project is not a copy-paste from these tutorials. I try to make the code cleaner, more readable and I try to respect the Solid principles as much as I can so I can extend the current features easily. I often come back on the code I produce as I get more and more experience on this game engine to make the code cleaner, to optimize the code or make the code easier to read and more organized.
 
@@ -14,7 +14,7 @@ Most of the assets come from the Unreal Market place (environment, characters an
 # Current Features
 
 
-The player can collect ressources (stones or herbs currently), interract with a shop keeper to buy or sell items by pressing the E key to interract with them. The parent class of all character implements an interface called InterractInterface. This one allows to trigger the interract function proper to each objects. Interract with a rock will collect it and put it in the inventory, interract with the shop keeper will display the shop UI and interract with a fire altar will turn on or off the fire.
+ The player can collect ressources (stones or herbs currently), interract with a shop keeper to buy or sell items by pressing the E key to interract with them. The parent class of all character implements an interface called InterractInterface. This one allows to trigger the interract function proper to each objects. Interract with a rock will collect it and put it in the inventory, interract with the shop keeper will display the shop UI and interract with a fire altar will turn on or off the fire.
 <p align="center">
   <img src="UE4%20Logs/1.PNG">
 </p>
@@ -60,7 +60,7 @@ The player also has the ability to dash taking the character to few meters forwa
 
 # AI
 
-A simple patroling AI following a determined route using Unreal engine's behavior tree and DetouredCroudAIController
+ A simple patroling AI following a determined route using Unreal engine's behavior tree and DetouredCroudAIController
 <p align="center">
   <img src="UE4%20Logs/AI_Patrol.gif">
 </p>
@@ -74,7 +74,7 @@ For now the AI is just following a simple patrol path driven by points set in th
 
 # Sound
 
-The current project has many sound effects :
+ The current project has many sound effects :
 Ambiant music and sounds corresponding to the theme of the environment.
 Many SFX like footsteps, sword swings, breathing and voices when attacking.
 The two different characters in the game (Shinbi, the player and Yin, the ennemy) have their own sound effects. Shinbi has her own sounds when getting hit, swinging her sword or hitting an ennemy. It's the same for Yin with different sound as they don't have the same voice or weapons. All the sound effects can be tweaked in the viewport by drag and dropping the Cue data containing the sound effects before launching the game.
@@ -82,7 +82,7 @@ Every Cue data plays a random sound when played. For exemple, Shinbi has 6 voice
 
 # Light Environments
 
-Used light presets to try different result. The project currently use the sunset preset.
+ I used light presets to try different result. The project currently use the sunset preset and I did a build with high quality light settings.
 <p align="center">
   <img src="UE4%20Logs/Light1.PNG">
   <img src="UE4%20Logs/Light2.PNG">
@@ -91,19 +91,19 @@ Used light presets to try different result. The project currently use the sunset
 
 # Sources
 
-Musics :
+ Musics :
 - Ambiant music https://www.youtube.com/watch?v=AY8l-pvTghI
 - Ambiant temple sound https://www.soundsnap.com/taxonomy/term/1505/uid:996809
-- Shinbi voices https://www.nexusmods.com/skyrim/mods/17736?tab=description
 - Various SFX https://opengameart.org/content/fantasy-sound-effects-library / https://opengameart.org/content/3-melee-sounds
 
 Characters :
-- Shinbi https://www.unrealengine.com/marketplace/en-US/product/paragon-shinbi
-- Yin https://www.unrealengine.com/marketplace/en-US/product/paragon-yin
+- Shinbi (character model, textures, voice lines and animations) https://www.unrealengine.com/marketplace/en-US/product/paragon-shinbi
+- Yin (character model, textures, voice lines and animations) https://www.unrealengine.com/marketplace/en-US/product/paragon-yin
+I worked on the existing animation files to trigger various effects (sounds, particle effects).
 
 Environment :
 - Temple https://www.unrealengine.com/marketplace/en-US/product/infinity-blade-temple
-
+I used a premade map level and removed some objects from the scene for performance purposes.
 # Coming next
 
 - More abilities
