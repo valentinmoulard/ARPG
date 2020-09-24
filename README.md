@@ -117,6 +117,7 @@ Environment :
 I used a premade map level and removed some objects from the scene for performance purposes.
 # Coming next
 
+- More feedbacks (visual or sound)
 - More abilities
 - An additional character to play with different ablities
 - Skill tree (a way to enhence abilities)
