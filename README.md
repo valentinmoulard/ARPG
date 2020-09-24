@@ -11,7 +11,7 @@ This current project is not a copy-paste from these tutorials. I try to make the
 Most of the assets come from the Unreal Market place (environment, characters and their animations).
 
 
-# Current Features
+# The Player
 
 
  The player can collect ressources (stones or herbs currently), interract with a shop keeper to buy or sell items by pressing the E key to interract with them. The parent class of all character implements an interface called InterractInterface. This one allows to trigger the interract function proper to each objects. Interract with a rock will collect it and put it in the inventory, interract with the shop keeper will display the shop UI and interract with a fire altar will turn on or off the fire.
@@ -31,6 +31,7 @@ This is the interface that allows the player to buy or sell items. The shopkeepe
   <img src="UE4%20Logs/3.PNG">
 </p>
 
+# Combat System
 
 The player can make combos with auto attacks (This feature was mostly already implemented in the Assets coming with this character model, I just implemented the code in the right place and prepared this character blueprint for the melee combat system such as dealing damage to the enemy, tweaking the attack range, etc).
 <p align="center">
@@ -53,10 +54,20 @@ When targeting an enemy, the player's movements will be translated into rotation
 
 Targeting an NPC will only lock the player to the target and will display a status bar of the target. The player will move around the target and will always face it.
 
-The player also has the ability to dash taking the character to few meters forward.
+The player also has the ability to dash forward.
 <p align="center">
   <img src="UE4%20Logs/PlayerDash.gif">
 </p>
+
+
+When the player or an enemy dies, they play an animation and it is not possible to interract with them. Their colliders are disabled to prevent blocking passage and it is not possible to lock them or hit them. The dead bodies lay on the ground with simple ragdolls tweaked in the physics assets and turned on when the death animation is finished.
+<p align="center">
+  <img src="UE4%20Logs/EnemyDead.gif">
+</p>
+<p align="center">
+  <img src="UE4%20Logs/PlayerDead.gif">
+</p>
+
 
 # AI
 
